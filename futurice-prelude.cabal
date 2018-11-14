@@ -9,6 +9,9 @@ description:    'Futurice.Prelude' is used in Futurice apps:
                 import Prelude ()
                 import Futurice.Prelude
                 @
+                .
+                This is good prelude for osakunta stuff.
+
 category:       Web
 homepage:       https://github.com/futurice/haskell-futurice-prelude#readme
 bug-reports:    https://github.com/futurice/haskell-futurice-prelude/issues
@@ -16,8 +19,8 @@ author:         Oleg Grenrus <oleg.grenrus@iki.fi>
 maintainer:     Oleg Grenrus <oleg.grenrus@iki.fi>
 license:        BSD-3-Clause
 license-file:   LICENSE
-tested-with:    GHC==8.0.2, GHC==8.2.2, GHC==8.4.4
 build-type:     Simple
+tested-with:    GHC ==8.4.4
 
 extra-source-files:
     README.md
