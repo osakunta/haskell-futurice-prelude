@@ -2,6 +2,7 @@ cabal-version:      2.2
 name:               futurice-prelude
 version:            1
 synopsis:           Futurice Prelude
+category:           Web
 description:
   'Futurice.Prelude' is used in Futurice apps:
   .
@@ -10,15 +11,14 @@ description:
   import Futurice.Prelude
   @
 
-category:           Web
 homepage:           https://github.com/futurice/haskell-futurice-prelude#readme
 bug-reports:        https://github.com/futurice/haskell-futurice-prelude/issues
 author:             Oleg Grenrus <oleg.grenrus@iki.fi>
 maintainer:         Oleg Grenrus <oleg.grenrus@iki.fi>
 license:            BSD-3-Clause
 license-file:       LICENSE
-tested-with:        ghc ==8.0.2 ghc ==8.2.2 ghc ==8.4.4 ghc ==8.6.2
 build-type:         Simple
+tested-with:        ghc ==8.4.4
 extra-source-files: README.md
 
 source-repository head
